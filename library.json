@@ -1,0 +1,15 @@
+{
+    "name": "Yfrobot I2C Line Follow Sensor Library",
+    "keywords": "yfrobot, line follow, i2c, function",
+    "description": "Library that makes Yfrobot I2C Line follow sensor work easy to use.",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/YFROBOT-TM/Yfrobot-I2C-LineFollowSensor-Library.git"
+    },
+    "frameworks": "arduino",
+    "platforms": [
+      "atmelavr",
+      "atmelsam"
+    ]
+}
