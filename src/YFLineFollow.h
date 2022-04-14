@@ -20,8 +20,9 @@
 #define LINESENSOR3 2  // line sensor 3
 #define LINESENSOR4 3  // line sensor 4
 #define LINESENSOR5 4  // line sensor 5
-#define LINESENSOREN 6  // line sensor enable pin 6
-#define LINESENSORCS 7  // line sensor cs pin 7 - 默认不使用
+#define LINESENSOR6 5  // line sensor 6
+#define LINESENSOR7 6  // line sensor 7
+#define LINESENSOREN 7  // line sensor enable pin 7 
 
 class YFLINEFOLLOW
 {
@@ -37,10 +38,11 @@ class YFLINEFOLLOW
 };
 
 
-YFLINEFOLLOW::YFLINEFOLLOW(uint8_t address = SX1508_ADDRESS) {}
+YFLINEFOLLOW::YFLINEFOLLOW(uint8_t address) {}
 
 //初始化传感器
-uint8_t YFLINEFOLLOW::begin(uint8_t address = SX1508_ADDRESS) {
+uint8_t YFLINEFOLLOW::begin(uint8_t address) {
+  Wire.begin();
   return  _sx1508.begin(address);
 }
 
@@ -62,4 +64,4 @@ void YFLINEFOLLOW::enableSensor() {
   _sx1508.digitalWrite(LINESENSOREN, HIGH);
 }
 
-#endif YFLINEFOLLOW_H
+#endif
