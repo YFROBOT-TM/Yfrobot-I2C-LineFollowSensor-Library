@@ -31,7 +31,6 @@ void setup()
   Serial.begin(115200);
   Serial.println("Line Follow Example");
 
-  Wire.begin();
   // Call xx.begin() to initialize the line follow sensor. If it successfully communicates, it'll return 1.
   if (YFLS.begin() == false) {
     Serial.println("Failed to communicate. Check wiring.");
