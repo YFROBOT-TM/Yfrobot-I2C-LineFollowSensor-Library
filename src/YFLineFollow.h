@@ -15,14 +15,14 @@
 
 #define SX1508_ADDRESS 0x20  // I2C address
 
-#define LINESENSOR1 0  // line sensor 1
-#define LINESENSOR2 1  // line sensor 2
-#define LINESENSOR3 2  // line sensor 3
-#define LINESENSOR4 3  // line sensor 4
-#define LINESENSOR5 4  // line sensor 5
-#define LINESENSOR6 5  // line sensor 6
-#define LINESENSOR7 6  // line sensor 7
-#define LINESENSOREN 7  // line sensor enable pin 7 
+#define LINESENSOR1 0  // line follow sensor 1
+#define LINESENSOR2 1  // line follow sensor 2
+#define LINESENSOR3 2  // line follow sensor 3
+#define LINESENSOR4 3  // line follow sensor 4
+#define LINESENSOR5 4  // line follow sensor 5
+#define LINESENSOR6 5  // line follow sensor 6
+#define LINESENSOR7 6  // line follow sensor 7
+#define LINESENSOREN 7  // line follow sensor enable pin
 
 class YFLINEFOLLOW
 {

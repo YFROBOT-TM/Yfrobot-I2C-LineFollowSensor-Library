@@ -1,7 +1,9 @@
 # Yfrobot-I2C-LineFollowSensor-Library
 YFROBOT I2C Line Follow Sensor Library for Arduino
 
-适用模块：[I2C Line Follow Sensor - 5]()
+![](./assets/LineFollowSensor.jpg)
+
+适用模块：[I2C Line Follow Sensor - 5]() 、 [I2C Line Follow Sensor - 7]()
 
 #### 库使用说明：
 调用库：
@@ -18,7 +20,7 @@ Methods：
 
 `YFLS.begin();`
 
-读取传感器，lineSensor值可为 0、1、2、3、4；分别对应5路传感器；
+读取传感器，lineSensor值可为 0、1、2、3、4；分别对应5路传感器；lineSensor值可为 0、1、2、3、4、5、6；分别对应7路传感器；
 有反射返回值为1，无反射返回值0。
 
 `YFLS.readSensor(lineSensor)`
