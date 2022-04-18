@@ -3,7 +3,7 @@ YFROBOT I2C Line Follow Sensor Library for Arduino
 
 ![](./assets/LineFollowSensor.jpg)
 
-适用模块：[I2C Line Follow Sensor - 5]() 、 [I2C Line Follow Sensor - 7]()
+适用模块：[采购](https://yfrobot.taobao.com/); [I2C Line Follow Sensor - 5]() 、 [I2C Line Follow Sensor - 7]()
 
 #### 库使用说明：
 调用库：
