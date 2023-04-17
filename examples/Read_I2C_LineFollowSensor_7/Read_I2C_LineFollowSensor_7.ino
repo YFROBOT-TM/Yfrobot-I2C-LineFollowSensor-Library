@@ -14,7 +14,6 @@
 
 *************************************************************/
 
-#include <Wire.h>           // Include the I2C library (required)
 #include "YFLineFollow.h"
 
 YFLINEFOLLOW YFLS;
